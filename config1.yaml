@@ -11,3 +11,11 @@ mongodb:
   mongodbPassword: password
   # MongoDB root password
   mongodbRootPassword: rootpassword
+  persistence:
+    enabled: true
+    mountPath: /bitnami/mongodb
+    subPath: "" 
+    accessModes:
+      - ReadWriteOnce
+    size: 3:Gi
+    annotations: {}
