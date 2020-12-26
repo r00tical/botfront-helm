@@ -1,0 +1,5 @@
+deploy:
+  - helm repo add botfront https://r00tical.github.io/botfront-helm
+  - helm repo update
+  - helm install -f config1.yaml -n r00tical botfront botfront/botfront
+  - helm install -n r00tical rasa botfront/botfront-project --set ingress.host=http://virtualcoach-r00tical.cloud.okteto.net

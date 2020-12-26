@@ -1,0 +1,13 @@
+botfront:
+  app:
+    # The complete external host of the Botfront application (eg. botfront.yoursite.com). It must be set even if running on a private or local DNS (it populates the ROOT_URL).
+    host: virtualcoach-r00tical.cloud.okteto.com
+
+mongodb:
+  enabled: true # disable to use an external mongoDB host
+  # Username of the MongoDB user that will have read-write access to the Botfront database. This is not the root user
+  mongodbUsername: username
+  # Password of the MongoDB user that will have read-write access to the Botfront database. This is not the root user
+  mongodbPassword: password
+  # MongoDB root password
+  mongodbRootPassword: rootpassword
