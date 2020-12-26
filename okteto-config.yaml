@@ -4,8 +4,10 @@ botfront:
     host: botfront-r00tical.cloud.okteto.net
 
 mongodb:
+  # MongoDB Atlas: mongodb+srv://<username>:<password>@cluster0.kyvbq.mongodb.net/<dbname>?retryWrites=true&w=majority
   enabled: false # disable to use an external mongoDB host
   mongodbUsername: bf
   mongodbPassword: passw0rd
   mongodbHostsAndPorts: cluster0.kyvbq.mongodb.net
   mongodbDatabase: virtualcoach
+  mongodbQueryString: retryWrites=true&w=majority
