@@ -3,7 +3,7 @@ entries:
   botfront:
   - apiVersion: v1
     appVersion: 0.27.2
-    created: "2020-12-26T18:01:25.73509767+01:00"
+    created: "2020-12-26T19:05:00.686718829+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -18,14 +18,14 @@ entries:
       repository: https://charts.bitnami.com/bitnami/
       version: 10.5.14
     description: A Helm chart for Botfront
-    digest: 9be9360b83b23845c057c0a526f0de64fa3d6f18e6dc2ae486b58e6588cfb5a0
+    digest: 1079ddef8db55fe27bcd10af24cb99a5f5fefe1acca328ad4595d7aebca30668
     name: botfront
     urls:
     - https://botfront.github.io/botfront-helm/charts/botfront-0.5.2.tgz
     version: 0.5.2
   - apiVersion: v1
     appVersion: 0.25.8
-    created: "2020-12-26T18:01:25.727730841+01:00"
+    created: "2020-12-26T19:05:00.679257697+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -47,7 +47,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 0.25.3
-    created: "2020-12-26T18:01:25.720637186+01:00"
+    created: "2020-12-26T19:05:00.672648828+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -69,7 +69,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.23.0
-    created: "2020-12-26T18:01:25.713069766+01:00"
+    created: "2020-12-26T19:05:00.665008324+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -91,7 +91,7 @@ entries:
     version: 0.4.3
   - apiVersion: v1
     appVersion: 0.23.0
-    created: "2020-12-26T18:01:25.706377956+01:00"
+    created: "2020-12-26T19:05:00.657569149+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -113,7 +113,7 @@ entries:
     version: 0.4.2
   - apiVersion: v1
     appVersion: 0.22.0
-    created: "2020-12-26T18:01:25.698911908+01:00"
+    created: "2020-12-26T19:05:00.650864212+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -135,7 +135,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 0.22.0
-    created: "2020-12-26T18:01:25.691703274+01:00"
+    created: "2020-12-26T19:05:00.643207145+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -153,7 +153,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 0.21.4
-    created: "2020-12-26T18:01:25.686983725+01:00"
+    created: "2020-12-26T19:05:00.638651454+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -171,7 +171,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.20.3
-    created: "2020-12-26T18:01:25.681180782+01:00"
+    created: "2020-12-26T19:05:00.633090246+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -189,7 +189,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 0.20.3
-    created: "2020-12-26T18:01:25.676270189+01:00"
+    created: "2020-12-26T19:05:00.628543225+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -207,7 +207,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 0.20.2
-    created: "2020-12-26T18:01:25.670977724+01:00"
+    created: "2020-12-26T19:05:00.622874866+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -225,7 +225,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.20.0
-    created: "2020-12-26T18:01:25.665141319+01:00"
+    created: "2020-12-26T19:05:00.618106529+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -243,7 +243,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 0.20.0
-    created: "2020-12-26T18:01:25.660093069+01:00"
+    created: "2020-12-26T19:05:00.612782932+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -261,7 +261,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-26T18:01:25.653718047+01:00"
+    created: "2020-12-26T19:05:00.607531353+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -280,16 +280,16 @@ entries:
   botfront-project:
   - apiVersion: v1
     appVersion: 0.27.2
-    created: "2020-12-26T18:01:25.743645395+01:00"
+    created: "2020-12-26T19:05:00.691721904+01:00"
     description: A Helm chart for Botfront projects
-    digest: 06a0c8f041246d41cb86c3852a057c1185ddbedc66331076fb1e74d7f7ff395a
+    digest: 8358a14c4e0a13f9e4834df6f188f574e4f3ab39a007a510c31ba596a5912e0f
     name: botfront-project
     urls:
     - https://botfront.github.io/botfront-helm/charts/botfront-project-0.5.2.tgz
     version: 0.5.2
   - apiVersion: v1
     appVersion: 0.25.8
-    created: "2020-12-26T18:01:25.743202543+01:00"
+    created: "2020-12-26T19:05:00.691254973+01:00"
     description: A Helm chart for Botfront projects
     digest: 5d1cd3e3234c07093196f562d43d15e41172fcf279821f2f1977899c27b22c34
     name: botfront-project
@@ -298,7 +298,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 0.25.3
-    created: "2020-12-26T18:01:25.742529555+01:00"
+    created: "2020-12-26T19:05:00.690779868+01:00"
     description: A Helm chart for Botfront projects
     digest: 6663ec34bf5782c2079798c5925f46dc61fbaf880b834b129db1693e5c5d22d5
     name: botfront-project
@@ -307,7 +307,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.23.0
-    created: "2020-12-26T18:01:25.741774442+01:00"
+    created: "2020-12-26T19:05:00.690335076+01:00"
     description: A Helm chart for Botfront projects
     digest: 274cfb3d79fef6fceced8eb1c0b5793cdafd1ed4d6fad0cd6e2dcb7f7092c16e
     name: botfront-project
@@ -316,7 +316,7 @@ entries:
     version: 0.4.3
   - apiVersion: v1
     appVersion: 0.23.0
-    created: "2020-12-26T18:01:25.740504819+01:00"
+    created: "2020-12-26T19:05:00.689908245+01:00"
     description: A Helm chart for Botfront projects
     digest: a046262c22a4cfefec988b76904aaae9b9962a6fa788c27a36d0f5a961bac3a1
     name: botfront-project
@@ -325,7 +325,7 @@ entries:
     version: 0.4.2
   - apiVersion: v1
     appVersion: 0.22.0
-    created: "2020-12-26T18:01:25.73997584+01:00"
+    created: "2020-12-26T19:05:00.68949606+01:00"
     description: A Helm chart for Botfront projects
     digest: 83dd0f18ce01dbe4f00e63292017936ee30c1f99121f1709f9b9cd740c5bccc0
     name: botfront-project
@@ -334,7 +334,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 0.22.0
-    created: "2020-12-26T18:01:25.739287374+01:00"
+    created: "2020-12-26T19:05:00.689074126+01:00"
     description: A Helm chart for Botfront projects
     digest: 57d0538d46b7e1becb689502833eb696aabad1fcac5d5cca89efec7e8c991965
     name: botfront-project
@@ -343,7 +343,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 0.21.4
-    created: "2020-12-26T18:01:25.738669805+01:00"
+    created: "2020-12-26T19:05:00.688675347+01:00"
     description: A Helm chart for Botfront projects
     digest: ff44923bb838b174cfe4aa6f383e7df8ba448d95a2dc7eaf0c1e5145ccf825b9
     name: botfront-project
@@ -352,7 +352,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.20.3
-    created: "2020-12-26T18:01:25.738062163+01:00"
+    created: "2020-12-26T19:05:00.688275704+01:00"
     description: A Helm chart for Botfront projects
     digest: 579590836bd77ca0f6d5d67039ed2f62fe25a78c454fdef92b145536204a70b4
     name: botfront-project
@@ -361,7 +361,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 0.20.3
-    created: "2020-12-26T18:01:25.737466045+01:00"
+    created: "2020-12-26T19:05:00.687886725+01:00"
     description: A Helm chart for Botfront projects
     digest: 6402238c2eacd0324550253110f3634f0c5c2f2a57bc3556051bac232ce067d6
     name: botfront-project
@@ -370,7 +370,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 0.20.2
-    created: "2020-12-26T18:01:25.736336919+01:00"
+    created: "2020-12-26T19:05:00.687496952+01:00"
     description: A Helm chart for Botfront projects
     digest: dce648653fcd81d2d8993a0e06c33b87abfc0c98d33e21999544359e20cf6fac
     name: botfront-project
@@ -379,11 +379,11 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.20.0
-    created: "2020-12-26T18:01:25.735761531+01:00"
+    created: "2020-12-26T19:05:00.687116868+01:00"
     description: A Helm chart for Botfront projects
     digest: 909aef686cce1f1e6209479f3d4284b9909ba92a89df785b135f4e3300314430
     name: botfront-project
     urls:
     - https://botfront.github.io/botfront-helm/charts/botfront-project-0.2.0.tgz
     version: 0.2.0
-generated: "2020-12-26T18:01:25.646607932+01:00"
+generated: "2020-12-26T19:05:00.602027934+01:00"

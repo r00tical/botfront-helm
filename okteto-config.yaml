@@ -2,6 +2,9 @@ botfront:
   app:
     # The complete external host of the Botfront application (eg. botfront.yoursite.com). It must be set even if running on a private or local DNS (it populates the ROOT_URL).
     host: botfront-r00tical.cloud.okteto.net
+  ingress:
+    annotations:
+      dev.okteto.com/generate-host: "true"
 
 mongodb:
   # MongoDB Atlas: mongodb+srv://<username>:<password>@cluster0.kyvbq.mongodb.net/<dbname>?retryWrites=true&w=majority
