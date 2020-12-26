@@ -17,5 +17,5 @@ mongodb:
     subPath: "" 
     accessModes:
       - ReadWriteOnce
-    size: 3:Gi
+    size: 3Gi
     annotations: {}
