@@ -1,0 +1,5 @@
+botfront:
+  app:
+    # The complete external host of the Botfront application (eg. botfront.yoursite.com). It must be set even if running on a private or local DNS (it populates the ROOT_URL).
+    host: virtualcoach-r00tical.cloud.okteto.com
+
