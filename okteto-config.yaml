@@ -11,6 +11,6 @@ mongodb:
   enabled: false # disable to use an external mongoDB host
   mongodbUsername: bf
   mongodbPassword: passw0rd
-  mongodbHostsAndPorts: cluster0.kyvbq.mongodb.net
+  mongodbHostsAndPorts: cluster0.kyvbq.mongodb.net:27017
   mongodbDatabase: virtualcoach
   mongodbQueryString: retryWrites=true&w=majority
